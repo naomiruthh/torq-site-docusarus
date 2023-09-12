@@ -1,0 +1,9 @@
+<!-- ## Metadata_Start
+## title: Use a private web form to trigger a workflow
+## original-url : https://learn.torq.io/docs/use-a-private-web-form-to-trigger-a-workflow
+## article-id : 59dd7abb-1a58-4f12-9430-5dc20ab64906
+## seo-title : Use a web form to trigger a Torq automated securityworkflow
+## description : Trigger a workflow from external applications with a private web form. It's helpful to add the option to trigger an on-demand workflow from another application.
+## category-type : html
+## Metadata_End -->
+<p>You can trigger a workflow from external applications using a private web form (URL). The web form is generated based on the trigger's defined parameters.</p><p>This is helpful when you want to trigger an on-demand workflow from another application, such as a ticketing system, SIEM, EDR, etc.</p><h2>How to create a web form</h2><ol><li>Create a workflow and select the on-demand trigger option.</li><li>Define at least one parameter for the trigger.</li><li>Click <strong>Copy to use as web form</strong>.<br><div class="fr-img-space-wrap"><img src="https://cdn.document360.io/e159bc51-b5b1-4b1f-af39-a9db2fa968d6/Images/Documentation/webform%20copy%20to%20use%20.jpg" class="fr-dib fr-bordered" style="width: 730px;" alt="On-demand trigger window with copy to use as webform highlighted"><p class="fr-img-space-wrap2">&nbsp;</p></div></li><li>Embed the URL wherever you want to use the form.</li><li>The user is presented with the form when the URL is clicked.<br><img src="https://cdn.document360.io/e159bc51-b5b1-4b1f-af39-a9db2fa968d6/Images/Documentation/executeworkflow.jpg" class="fr-dib fr-bordered" style="width: 730px;" alt="executeworkflow"></li></ol><h2>Important to know</h2><ul><li>The workflow is executed from outside Torq, but the user must have a Torq account.</li><li>If the workflow is not published or is deleted, the user will receive a message that the page was not found.</li></ul>

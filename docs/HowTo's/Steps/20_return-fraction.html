@@ -1,0 +1,9 @@
+<!-- ## Metadata_Start
+## title: Return fractional seconds in datetimes
+## original-url : https://learn.torq.io/docs/return-fractional-seconds-in-datetimes
+## article-id : 924b1ea1-4ed0-4463-a48d-a44db98f9a3b
+## seo-title : Return fractional seconds in Torq automated security workflows
+## description : How to specify the amount of digits to return when asking for fractional seconds from Torq's usual string-format of datetimes.
+## category-type : html
+## Metadata_End -->
+<p>Torq uses string-format time, which supports returning fractional seconds.</p><p>When returning fractional seconds you can specify the number of digits to return.</p><p>By default, <strong>%f</strong> returns nanoseconds (9-digits). Add the number of digits you want between the <strong>%</strong> and <strong>f</strong>.</p><table style="width: 100%;"><thead><tr><th>Fractional seconds</th><th># of digits</th><th>Format</th></tr></thead><tbody><tr><td style="width: 33.3333%;">Decisecond</td><td style="width: 33.3333%;">1</td><td style="width: 33.3333%;"><p>%Y-%m-%dT%H:%M:%S:%1f</p></td></tr><tr><td style="width: 33.3333%;">Centisecond</td><td style="width: 33.3333%;">2</td><td style="width: 33.3333%;"><p>%Y-%m-%dT%H:%M:%S:%2f</p></td></tr><tr><td style="width: 33.3333%;">Millisecond</td><td style="width: 33.3333%;">3</td><td style="width: 33.3333%;"><p>%Y-%m-%dT%H:%M:%S:%3f</p></td></tr><tr><td style="width: 33.3333%;">Macrosecond</td><td style="width: 33.3333%;">6</td><td style="width: 33.3333%;"><p>%Y-%m-%dT%H:%M:%S:%6f</p></td></tr><tr><td style="width: 33.3333%;">Nanosecond</td><td style="width: 33.3333%;">9</td><td style="width: 33.3333%;"><p>%Y-%m-%dT%H:%M:%S:%f</p></td></tr></tbody></table>
